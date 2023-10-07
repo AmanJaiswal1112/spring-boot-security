@@ -22,6 +22,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.authenticated()
 		.and()
 		.httpBasic();
+		
+		//To Do added comments
 	}
 	
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
